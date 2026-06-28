@@ -1,0 +1,539 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthikeyan S | Creative Frontend Developer Portfolio</title>
+    <meta name="description" content="Welcome to the creative frontend developer portfolio of Alex Carter. Explore my interactive projects, skills, education, certificates, and get in touch.">
+    <meta name="keywords" content="Frontend Developer, Portfolio, Web Design, HTML, CSS, JavaScript, Bootstrap, React">
+    <meta name="author" content="Alex Carter">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Karthikeyan<span>.s</span></a>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link nav-btn">Contact</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <!-- 1. HOME SECTION -->
+        <section id="home" class="section hero-section">
+            <div class="stars-bg"></div>
+            <div class="hero-content">
+                <p class="hero-subtitle"></p>
+                <h1 class="hero-title">Hi, I'm <span class="highlight-text">Karthikeyan S</span></h1>
+                <h2 class="hero-role">I am a <span class="typewriter-text" id="typewriter"></span><span class="cursor-blink">|</span></h2>
+                <p class="hero-desc">I am a passionate Frontend Developer building modern and responsive websites with clean UI and strong user experience.</p>
+
+                <div class="social-container">
+                    <p class="social-title">FOLLOW US</p>
+                    <div class="social-links">
+                        <a href="https://github.com/karthisk2566" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/karthikeyan-s-0922423a7" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Dribbble">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.49-11.05 1-11.6 8.56"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- 2. ABOUT ME SECTION -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="about-grid">
+                    <div class="about-left-image reveal-left">
+                        <div class="image-wrapper">
+                            <img src="https://i.ibb.co/Jw5XXpfQ/Whats-App-Image-2026-06-22-at-10-08-26-AM.jpg" alt="Alex Carter Profile" class="profile-img">
+                            <div class="glow-border"></div>
+                        </div>
+                    </div>
+                    <div class="about-right-content reveal-right">
+                        <h3>Creative Frontend Developer</h3>
+                        <p class="about-text">
+                            I am a Frontend Developer passionate about creating responsive and user-friendly websites. I have experience with HTML,CSS,BOOTSTRAP, and basic JavaScript. I enjoy turning ideas into clean,modern,and interactive web experiences.Continuously learning new technologies to improve my web development skills
+                        </p>
+
+                        <div class="what-i-known">
+                            <h4>What I Known</h4>
+                            <div class="tech-tags">
+                                <div class="tag-card">
+                                    <span class="tag-icon html-glow">HTML5</span>
+                                </div>
+                                <div class="tag-card">
+                                    <span class="tag-icon css-glow">CSS3</span>
+                                </div>
+                                <div class="tag-card">
+                                    <span class="tag-icon js-glow">Basic JS</span>
+                                </div>
+                                <div class="tag-card">
+                                    <span class="tag-icon bs-glow">Bootstrap</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 3. EDUCATION SECTION -->
+        <section id="education" class="section education-section">
+            <div class="container">
+                <h2 class="section-title">My <span>Education</span></h2>
+                <div class="education-grid">
+                    <!-- Column 1: Higher Studies -->
+                    <div class="education-card reveal-up" style="--card-index: 3;">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                            </svg>
+                        </div>
+                        <span class="duration">2025 - 2026</span>
+                        <h3>Intensive Frontend Developer</h3>
+                        <p class="school-name">Nxtwave's CCBP 4.0 Academy| Online</p>
+                        <p class="edu-desc">Learned Frontend Development through NxtWave, gaining hands-on experience in building responsive and user-friendly web pages using HTML, CSS, and JavaScript.
+
+                        </p>
+                        <div class="card-glow"></div>
+                    </div>
+                    <!-- Column 2: Bachelor Degree -->
+                    <div class="education-card reveal-up active-card" style="--card-index: 2;">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <span class="duration">2021 - 2024</span>
+                        <h3>Bachelor of Commerce</h3>
+                        <p class="school-name">Erode Arts & Science College</p>
+                        <p class="edu-desc">Completed a Bachelor of Commerce (B.Com) degree with a strong foundation in business and financial concepts.
+                            Alongside my academics, I developed technical skills in web development and programming, pursuing a career in the IT industry.
+                        </p>
+                        <div class="card-glow"></div>
+                    </div>
+                    <!-- Column 3: PG Degree -->
+                    <div class="education-card reveal-up" style="--card-index: 1;">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path>
+                            </svg>
+                        </div>
+                        <span class="duration">2019 - 2021</span>
+                        <h3>Higher Secondary School</h3>
+                        <p class="school-name">Seenapuram Higher Secondary School</p>
+                        <p class="edu-desc">Completed higher secondary education in the Arts stream with Computer Applications, gaining foundational knowledge in computer technology and problem-solving skills
+                            with good honors (77%).</p>
+                        <div class="card-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 4. CERTIFICATES SECTION -->
+        <section id="certificates" class="section certificates-section">
+            <div class="container">
+                <h2 class="section-title">My <span>Certificates</span></h2>
+                <div class="certificates-grid">
+                    <!-- Certificate 1 -->
+                    <div class="certificate-card reveal-up" style="--card-index: 1;">
+                        <div class="cert-img-container">
+                            <img src="https://i.ibb.co/TB78ZFsZ/JHNJAICVMN-1.png" alt="Advanced Responsive Web Design Certificate" class="cert-img">
+                            <div class="cert-overlay">
+                                <button class="btn btn-view" onclick="openCertModal('https://i.ibb.co/TB78ZFsZ/JHNJAICVMN-1.png', 'Build Your Own Responsive Website', 'Authorized by Nxtwave')">
+                                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon">
+                                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                        <circle cx="12" cy="12" r="3"></circle>
+                                    </svg>
+                                    View Certificate
+                                </button>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3>Build Your Own Responsive Website</h3>
+                            <p class="issuer">Nxtwave</p>
+
+                        </div>
+                        <div class="card-glow"></div>
+                    </div>
+                    <!-- Certificate 2 -->
+                    <div class="certificate-card reveal-up" style="--card-index: 2;">
+                        <div class="cert-img-container">
+                            <img src="https://i.ibb.co/wr41tCXf/BVIQVGIKLN-1.png" alt="JavaScript Algorithms Certificate" class="cert-img">
+                            <div class="cert-overlay">
+                                <button class="btn btn-view" onclick="openCertModal('https://i.ibb.co/wr41tCXf/BVIQVGIKLN-1.png', 'JavaScript Essentials', 'Authorized by Nxtwave ')">
+                                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon">
+                                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                        <circle cx="12" cy="12" r="3"></circle>
+                                    </svg>
+                                    View Certificate
+                                </button>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3>JavaScript Essential</h3>
+                            <p class="issuer">Nxtwave</p>
+
+                        </div>
+                        <div class="card-glow"></div>
+                    </div>
+                    <!-- Certificate 3 -->
+                    <div class="certificate-card reveal-up" style="--card-index: 3;">
+                        <div class="cert-img-container">
+                            <img src="https://i.ibb.co/jZq1FCqj/QGSQBRDYEU-1.png" alt="Frontend Developer Professional Certificate" class="cert-img">
+                            <div class="cert-overlay">
+                                <button class="btn btn-view" onclick="openCertModal('https://i.ibb.co/jZq1FCqj/QGSQBRDYEU-1.png', 'Build Your Own Static Website', 'Authorized by Nxtwave ')">
+                                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon">
+                                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                        <circle cx="12" cy="12" r="3"></circle>
+                                    </svg>
+                                    View Certificate
+                                </button>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3>Build Your Own Static Website</h3>
+                            <p class="issuer">Nxtwave</p>
+
+                        </div>
+                        <div class="card-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 5. SKILLS SECTION -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <h2 class="section-title">My <span>Skills</span></h2>
+                <div class="skills-grid">
+
+                    <!-- Frontend Skills (Circular indicators) -->
+                    <div class="skills-column reveal-left">
+                        <div class="skills-category-card">
+                            <div class="category-header">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" class="category-icon text-cyan">
+                                    <path d="M16.5 9.4 7.55 4.24a1.79 1.79 0 0 0-2.5 1.51v12.5a1.79 1.79 0 0 0 2.5 1.51l8.95-5.16a1.79 1.79 0 0 0 0-3.2Z"></path>
+                                    <path d="m21.5 14.16-2.5 1.44a1 1 0 0 1-1-1.73l2.5-1.44a1 1 0 0 1 1 1.73Z"></path>
+                                </svg>
+                                <h3>Frontend Skills</h3>
+                            </div>
+                            <div class="skills-circle-container">
+                                <!-- HTML -->
+                                <div class="skill-circle-box">
+                                    <div class="circle-outer">
+                                        <svg class="svg-circle">
+                                            <circle cx="50" cy="50" r="40" class="circle-bg"></circle>
+                                            <circle cx="50" cy="50" r="40" class="circle-bar html-bar" style="--stroke-dash: 238;"></circle>
+                                        </svg>
+                                        <div class="circle-percent">95%</div>
+                                    </div>
+                                    <span class="skill-circle-name">HTML5</span>
+                                </div>
+                                <!-- CSS -->
+                                <div class="skill-circle-box">
+                                    <div class="circle-outer">
+                                        <svg class="svg-circle">
+                                            <circle cx="50" cy="50" r="40" class="circle-bg"></circle>
+                                            <circle cx="50" cy="50" r="40" class="circle-bar css-bar" style="--stroke-dash: 226;"></circle>
+                                        </svg>
+                                        <div class="circle-percent">90%</div>
+                                    </div>
+                                    <span class="skill-circle-name">CSS3</span>
+                                </div>
+                                <!-- JavaScript -->
+                                <div class="skill-circle-box">
+                                    <div class="circle-outer">
+                                        <svg class="svg-circle">
+                                            <circle cx="50" cy="50" r="40" class="circle-bg"></circle>
+                                            <circle cx="50" cy="50" r="40" class="circle-bar js-bar" style="--stroke-dash: 188;"></circle>
+                                        </svg>
+                                        <div class="circle-percent">75%</div>
+                                    </div>
+                                    <span class="skill-circle-name">Javascript</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Professional Skills (Gauge lines) -->
+                    <div class="skills-column reveal-right">
+                        <div class="skills-category-card">
+                            <div class="category-header">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" class="category-icon text-pink">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                                <h3>Professional Skills</h3>
+                            </div>
+                            <div class="skills-gauge-container">
+                                <!-- Communication -->
+                                <div class="gauge-box">
+                                    <div class="gauge-label-row">
+                                        <span class="gauge-name">Communication</span>
+                                        <span class="gauge-value">85%</span>
+                                    </div>
+                                    <div class="gauge-track">
+                                        <div class="gauge-fill comm-fill" style="--fill-width: 85%;"></div>
+                                    </div>
+                                </div>
+                                <!-- Creativity -->
+                                <div class="gauge-box">
+                                    <div class="gauge-label-row">
+                                        <span class="gauge-name">Creativity</span>
+                                        <span class="gauge-value">92%</span>
+                                    </div>
+                                    <div class="gauge-track">
+                                        <div class="gauge-fill creativity-fill" style="--fill-width: 92%;"></div>
+                                    </div>
+                                </div>
+                                <!-- Problem Solving -->
+                                <div class="gauge-box">
+                                    <div class="gauge-label-row">
+                                        <span class="gauge-name">Problem Solving</span>
+                                        <span class="gauge-value">80%</span>
+                                    </div>
+                                    <div class="gauge-track">
+                                        <div class="gauge-fill psolve-fill" style="--fill-width: 80%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 6. PROJECTS SECTION -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <h2 class="section-title">My <span>Projects</span></h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card reveal-left">
+                        <div class="project-img-wrapper">
+                            <img src="https://media.istockphoto.com/id/1837339974/photo/different-types-of-coffee-sorted-out-in-paper-bags-in-a-coffee-shop-in-kuwait.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=AUt4rHSpnyAZ2lbLLGzSEr6j3shVoCRH5ChrB3buK0U=" alt="FinTech Dashboard Application Preview" class="project-img">
+                            <div class="project-shine"></div>
+                        </div>
+                        <div class="project-details">
+                            <h3>Coffee Shoping Website</h3>
+                            <div class="tech-stack-used">
+                                <span class="tech-badge">HTML</span>
+                                <span class="tech-badge">CSS</span>
+                                <span class="tech-badge">Bootstrap</span>
+                            </div>
+                            <p class="project-description">
+                                Built a responsive Coffee e-commerce website with an intuitive user interface, showcasing frontend development skills using HTML, CSS, and Bootstrap.
+
+                            </p>
+                            <a href="https://projectkarthi.ccbp.tech/" target="_blank" rel="noopener noreferrer" class="btn btn-project-view">
+                                View Project
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" class="btn-arrow">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card reveal-right">
+                        <div class="project-img-wrapper">
+                            <img src="https://i.ibb.co/7NXmX2HX/Whats-App-Image-2026-06-11-at-4-18-20-PM.jpg" alt="Mobile Banking Portal Preview" class="project-img">
+                            <div class="project-shine"></div>
+                        </div>
+                        <div class="project-details">
+                            <h3>AI-Augmented Developer Portfolio</h3>
+                            <div class="tech-stack-used">
+                                <span class="tech-badge">ChatGPT</span>
+                                <span class="tech-badge">Antigravity-AI</span>
+
+                            </div>
+                            <p class="project-description">
+                                Developed a personal portfolio website using AI-powered tools such as ChatGPT and Antigravity AI, showcasing my skills and projects effectively.
+
+                            </p>
+                            <a href="https://frontendport.ccbp.tech/" target="_blank" rel="noopener noreferrer" class="btn btn-project-view">
+                                View Project
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" class="btn-arrow">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 7. CREATIVE CONTACT SECTION -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title">Get In <span>Touch</span></h2>
+                <div class="contact-grid">
+                    <!-- Contact Information Column -->
+                    <div class="contact-info reveal-left">
+                        <h3>Let's Collaborate</h3>
+                        <p class="contact-subtitle">Have a project idea? Or just want to say hi? Connect with me today!</p>
+
+                        <div class="info-cards">
+                            <!-- Email Card -->
+                            <div class="info-card" id="emailCard">
+                                <div class="info-icon email-glow">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="info-details">
+                                    <span>EMAIL ME</span>
+                                    <p id="devEmail">karthisk2566@gmail.com</p>
+                                </div>
+                                <button class="btn-copy" id="btnCopyEmail" aria-label="Copy email address" title="Copy Email">
+                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" class="copy-icon">
+                                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                                    </svg>
+                                    <span class="tooltip" id="copyTooltip">Copy</span>
+                                </button>
+                            </div>
+                            <!-- Location Card -->
+                            <div class="info-card">
+                                <div class="info-icon loc-glow">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="12" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="info-details">
+                                    <span>LOCATION</span>
+                                    <p>Coimbatore, Tamilnadu</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Mini Interactive Console Card -->
+                        <div class="console-card">
+                            <div class="console-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="console-title">alex_cmd.sh</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Contact Form Column -->
+                    <div class="contact-form-wrapper reveal-right">
+                        <div class="glass-form-container">
+                            <form id="contactForm" onsubmit="handleFormSubmit(event)">
+                                <div class="form-row">
+                                    <div class="input-group">
+                                        <input type="text" id="contactName" required placeholder=" " autocomplete="name">
+                                        <label for="contactName">Your Name</label>
+                                        <span class="input-glow-line"></span>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="input-group">
+                                        <input type="email" id="contactEmail" required placeholder=" " autocomplete="email">
+                                        <label for="contactEmail">Your Email</label>
+                                        <span class="input-glow-line"></span>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="input-group">
+                                        <textarea id="contactMessage" required placeholder=" " rows="5"></textarea>
+                                        <label for="contactMessage">Project Details / Message</label>
+                                        <span class="input-glow-line"></span>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-submit" id="btnSubmitForm">
+                                    <span>Send Message</span>
+                                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" class="send-icon">
+                                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                    </svg>
+                                </button>
+                            </form>
+                            <div class="form-success-overlay" id="successOverlay">
+                                <div class="success-message">
+                                    <div class="success-icon">
+                                        <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="3">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                    </div>
+                                    <h3>Message Transmitted!</h3>
+                                    <p>Thank you for reaching out. I'll get back to you shortly.</p>
+                                    <button class="btn btn-reset" onclick="resetForm()">Send Another</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Modal for Certificate Zoom -->
+    <div class="modal" id="certModal" onclick="closeCertModal()">
+        <button class="modal-close" aria-label="Close modal" onclick="closeCertModal()">&times;</button>
+        <div class="modal-box" onclick="event.stopPropagation()">
+            <img src="" alt="" id="modalImg" class="modal-image">
+            <div class="modal-caption">
+                <h3 id="modalTitle">Certificate</h3>
+                <p id="modalSubtitle">Subdetails</p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Karthi. Designed & Crafted with Passion.</p>
+    </footer>
+    <!-- JavaScript Files -->
+    <script src="script.js"></script>
+</body>
+
+</html>
